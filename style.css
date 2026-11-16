@@ -1,0 +1,128 @@
+body {
+	margin: 0;
+	min-height: 100vh;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+	background-image: url('https://i.pinimg.com/1200x/5b/2d/07/5b2d0777fcdb9ce08c73d8dfbaed2bbe.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.card {
+	background: #fffef2;
+	border: 6px solid #f4d03f;
+	border-radius: 20px;
+	padding: 30px;
+	max-width: 550px;
+	width: 90%;
+	text-align: center;
+	box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+.badge {
+	background: #e52521;
+	color: white;
+	padding: 6px 14px;
+	border-radius: 20px;
+	font-size: 14px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.toy-story-logo {
+	margin: 15px 0 15px;
+}
+
+.toy-text {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 64px;
+	font-weight: 900;
+	color: #ffed03;
+	text-shadow: 
+		-3px -3px 0 #0056b3,  
+		 3px -3px 0 #0056b3,
+		-3px  3px 0 #0056b3,
+		 3px  3px 0 #0056b3,
+		 6px  6px 0px rgba(0,0,0,0.3);
+	margin: 0;
+	letter-spacing: 2px;
+	line-height: 1.1;
+}
+
+.story-banner {
+	display: inline-block;
+	background-color: #e52521;
+	color: #ffffff;
+	font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+	font-weight: bold;
+	font-size: 42px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	padding: 8px 26px;
+	border-radius: 8px;
+	margin-top: 8px;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+
+.inside {
+	display: none;
+	text-align: left;
+	line-height: 1.6;
+	color: #2c3e50;
+}
+
+.inside p {
+	text-indent: 30px;
+	margin: 10px 0;
+}
+
+.music-section {
+	margin-bottom: 18px;
+	padding: 10px;
+	background: #fff8dc;
+	border: 2px dashed #f4d03f;
+	border-radius: 12px;
+	text-align: center;
+}
+
+.music-section p {
+	text-indent: 0;
+	font-size: 14px;
+	color: #e52521;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+}
+
+.music-section iframe {
+	border-radius: 8px;
+	display: block;
+}
+
+.card.open .cover { 
+	display: none; 
+}
+
+.card.open .inside { 
+	display: block; 
+}
+
+.card.open { 
+	cursor: default; 
+}
+
+button {
+	margin-top: 15px;
+	padding: 8px 16px;
+	background: #2ecc71;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
